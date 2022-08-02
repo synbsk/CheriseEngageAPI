@@ -38,13 +38,13 @@ isPlainText = true
 notAlternative = true
 
 # add output format for section sitemap.xml
-[outputFormats.SITEMAP]
-mediaType = "application/xml"
-baseName = "sitemap"
-isHTML = false
-isPlainText = true
-noUgly = true
-rel  = "sitemap"
+# [outputFormats.SITEMAP]
+# mediaType = "application/xml"
+# baseName = "sitemap"
+# isHTML = false
+# isPlainText = true
+# noUgly = true
+# rel  = "sitemap"
 
 [caches]
   [caches.getjson]
@@ -57,9 +57,9 @@ rel  = "sitemap"
   priority = 0.5
 
 [taxonomies]
-  contributor = "contributors"
+  # contributor = "contributors"
   category = "categories"
-  tag = "tags"
+  # tag = "tags"
 
 [permalinks]
   blog = "/blog/:title/"
@@ -75,9 +75,9 @@ rel  = "sitemap"
     [[related.indices]]
     name = "categories"
     weight = 100
-    [[related.indices]]
-    name = "tags"
-    weight = 80
-    [[related.indices]]
-    name = "date"
-    weight = 10
+    # [[related.indices]]
+    # name = "tags"
+    # weight = 80
+    # [[related.indices]]
+    # name = "date"
+    # weight = 10
